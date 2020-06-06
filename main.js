@@ -4,7 +4,7 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 let modal  = document.getElementById('modal');
-let hearts = document.querySelector(".like-glyph");
+let hearts = document.querySelectorAll(".like-glyph");
 
 
 function changeHeart(heart) {
